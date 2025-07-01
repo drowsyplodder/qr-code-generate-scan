@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Задает высоту на 100% высоты окна */
+    font-family: "Libertinus Mono", monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background: linear-gradient(45deg, rgb(18, 19, 19) 4%, rgb(55, 58, 58) 100%);
+    background-size: cover; /* Заполняет весь элемент */
+    color: white;
+}

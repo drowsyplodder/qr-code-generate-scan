@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    width: 100%;
+    margin: 20px auto;
+    max-width: 800px;
+    column-gap: 20px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    background-color: rgb(19, 18, 18);
+}
+
+.container a {
+    color: white; 
+    text-decoration: none; 
+    transition: 800ms ease;
+}
+
+.container a:hover {
+    scale: 1.1
+}

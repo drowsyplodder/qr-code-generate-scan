@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+    padding: 40px 40px;
+    align-items: center;
+    row-gap: 30px;
+    border-radius: 15px;
+    background-color: rgb(48, 47, 47);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(47, 47, 47, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(47, 47, 47, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(47, 47, 47, 0.2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+input[type="text"] {
+    border-radius: 15px;
+    width: 300px;
+    padding: 10px 20px;
+    background-color: grey;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    outline: none;
+    font-family: "Libertinus Mono", monospace;
+    font-size: 20px;
+}
+
+button[type="button"] {
+    border-radius: 15px;
+    width: 300px;
+    padding: 10px 20px;
+    background: -webkit-linear-gradient(45deg, rgb(27, 30, 29) 42%, rgb(93, 101, 101) 93%);
+    background: -moz-linear-gradient(45deg, rgb(27, 30, 29) 42%, rgb(93, 101, 101) 93%);
+    background: linear-gradient(45deg, rgb(27, 30, 29) 42%, rgb(93, 101, 101) 93%);
+    border: none;
+    color: white;
+    font-weight: 800;
+    transition: 800ms ease;
+    font-family: "Libertinus Mono", monospace;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    scale: 1.1;
+    background: -webkit-linear-gradient(45deg, rgb(27, 30, 29), rgb(93, 101, 101) 93%);
+    background: -moz-linear-gradient(45deg, rgb(27, 30, 29), rgb(93, 101, 101) 93%);
+    background: linear-gradient(45deg, rgb(27, 30, 29), rgb(93, 101, 101) 93%);
+
+}

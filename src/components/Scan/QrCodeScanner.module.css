@@ -1,0 +1,29 @@
+.container {
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 40px;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(47, 47, 47, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(47, 47, 47, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(47, 47, 47, 0.2);
+}
+
+p .linnk {
+    color: white;
+    text-decoration: none;
+    transition: transform 800ms ease; 
+}
+
+p .linnk:hover {
+    transform: scale(1.1); 
+}
+
+
