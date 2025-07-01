@@ -67,3 +67,11 @@ button[type="button"]:hover {
         background-color: rgb(19, 18, 18);
     }
 }
+
+@media (max-width: 500px) {
+    
+    input[type="text"], button[type="button"]  {
+        width: 200px;
+    }
+
+}

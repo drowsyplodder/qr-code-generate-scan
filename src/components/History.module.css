@@ -26,3 +26,13 @@
     }
 
 }
+
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        font-size: 30px;
+        padding: 10px 15px;
+        background-color: rgb(19, 18, 18);
+    }
+
+}
