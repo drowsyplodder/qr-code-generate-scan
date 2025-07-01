@@ -58,3 +58,12 @@ button[type="button"]:hover {
     background: linear-gradient(45deg, rgb(27, 30, 29), rgb(93, 101, 101) 93%);
 
 }
+
+
+@media (max-width: 920px) {
+    .container {
+        width: 300px;
+        padding: 10px;
+        background-color: rgb(19, 18, 18);
+    }
+}
